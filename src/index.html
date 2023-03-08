@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goldy Store</title>
+    <link rel="stylesheet" href="/index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Prata&display=swap" rel="stylesheet">    
+  </head>
+  <body>
+    <section class="main-layout">
+      <header class="container">
+        <section class="row">
+          <div class="header-field">
+            <section class="col-sm left">
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="location-icon" src = "assets/Vector.svg" alt="location-icon"/>
+                  Санкт-Петербург
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Санкт-Петербург</a></li>
+                  <li><a class="dropdown-item" href="#">Москва</a></li>
+                  <li><a class="dropdown-item" href="#">Нижний Новгород</a></li>
+                  <li><a class="dropdown-item" href="#">Ростов-на-Дону</a></li>
+                </ul>
+              </div>
+              <div class="phone-number">
+                <img class="phone-call-icon" src = "assets/phone-call 1.svg" alt="phone-call"/>
+                <p class="phone-number-text">8 800 785-25-35</p>
+              </div>
+            </section>
+            <section class="col-sm center">
+              <div class="brand">
+                <p class="brand-name"><span>Goldy</span> Store</p>
+                <p class="brand-description">ювелирный магазин</p>
+              </div>
+            </section>
+            <section class="col-sm right">
+              <div class="auth">
+                <a href="#" class="link-hover">Вход</a>
+                <span>|</span>
+                <a href="#" class="link-hover">Регистрация</a>
+              </div>
+              <div class="icons-group">
+                <img class="header-icon" src = "assets/coolicon.svg" alt="favorite-icon"/>
+                <img class="header-icon" src = "assets/chart.svg" alt="chart-icon"/>
+                <img class="header-icon" src = "assets/bag.svg" alt="bag-icon"/>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section>
+          <div class="header-field bottom">
+            <div class="navbar">
+              <a class="navbar-item" href="#">Каталог</a>
+              <a class="navbar-item" href="#">Акции</a>
+              <a class="navbar-item" href="#">Бренды</a>
+              <a class="navbar-item" href="#">Магазины</a>
+              <a class="navbar-item" href="#">О нас</a>
+              <a class="navbar-item" href="#">Доставка и оплата</a>
+              <a class="navbar-item" href="#">Статьи</a>
+            </div>
+            <div class="navbar-search">
+              <div id="search-bar" class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping"><img class="search-icon" src = "assets/Union.svg" alt="search-icon"/></span>
+                <input type="text" class="form-control search-input" placeholder="Поиск по сайту" aria-label="site-search" aria-describedby="addon-wrapping">
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide default-carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active slide-indicator" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="slide-indicator" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="slide-indicator" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm details-wrapper">
+                    <div class="carousel-details">
+                      <p class="title">Суперскидка до 60%</p>
+                      <p class="title-accent">НА БРИЛЛИАНТЫ</p>
+                      <button class="normal-button">Подробнее</button>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg 1.png" class="d-block w-80 big" alt="...">
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm details-wrapper">
+                    <div class="carousel-details">
+                      <p class="title">Суперскидка до 60%</p>
+                      <p class="title-accent">НА БРИЛЛИАНТЫ</p>
+                      <button class="normal-button">Подробнее</button>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg 1.png" class="d-block w-80 big" alt="...">
+                  </div>
+                </div>
+              </div>            
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm details-wrapper">
+                    <div class="carousel-details">
+                      <p class="title">Суперскидка до 60%</p>
+                      <p class="title-accent">НА БРИЛЛИАНТЫ</p>
+                      <button class="normal-button">Подробнее</button>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg 1.png" class="d-block w-80 big" alt="...">
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <button class="carousel-control-prev carousel-controls" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon carousel-controls-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next carousel-controls" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon carousel-controls-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="popular-category">
+        <h1 class="block-title">Популярные категории</h1>
+        <div class="category-list">
+          <a href="#">
+            <div class="card">
+              <div class="card-body" id="ring-card">
+                <img src="assets/pngegg4(1).png" class="card-img-top" alt="...">
+                <h5 class="card-title">Кольца</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="card-body" id="earings-card">
+                <img src="assets/pngegg4(2).png" class="card-img-top" alt="...">
+                <h5 class="card-title">Серьги</h5>
+              </div>
+            </div> 
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="card-body" id="weading-rings-card">
+                <img src="assets/pngegg4(3).png" class="card-img-top" alt="...">
+                <h5 class="card-title">Помолвочные кольца</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="card-body" id="bracelets-card">
+                <img src="assets/pngegg4(4).png" class="card-img-top" alt="...">
+                <h5 class="card-title">Браслеты</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">  
+            <div class="card">
+              <div class="card-body" id="necklace-card">
+                <img src="assets/pngegg4(5).png" class="card-img-top" alt="...">
+                <h5 class="card-title">Колье и подвески</h5>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="card-body" id="watches-card">
+                <img src="assets/pngegg4(6).png" class="card-img-top" alt="...">
+                <h5 class="card-title">Часы</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="sale">
+        <h1 class="block-title">Распродажа</h1>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Кольца</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Серьги</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Браслеты</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-some" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Часы</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div id="carouselExampleIndicators2" class="carousel slide">
+              <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active slide-indicator" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" class="slide-indicator" aria-label="Slide 2"></button>
+              </div> -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF2.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF3.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF4.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/EE5B443D9C82A365C3EA3FE09DAF1.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильное кольцо из белого золота c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Белое золото</option>
+                              <option value="1">Желтое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="controls-wrapper">
+                <button class="carousel-control-prev carousel-controls" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-controls" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="1">
+            <div id="carouselExampleIndicators3" class="carousel slide">
+              <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active slide-indicator" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" class="slide-indicator" aria-label="Slide 2"></button>
+              </div> -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(2).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильные золотые серьги c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="controls-wrapper">
+                <button class="carousel-control-prev carousel-controls" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-controls" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="2">
+            <div id="carouselExampleIndicators4" class="carousel slide">
+              <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active slide-indicator" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" class="slide-indicator" aria-label="Slide 2"></button>
+              </div> -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(4).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильный золотой браслет c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="controls-wrapper">
+                <button class="carousel-control-prev carousel-controls" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-controls" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                  <span class="carousel-control-next-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-some" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="3">
+            <div id="carouselExampleIndicators5" class="carousel slide">
+              <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active slide-indicator" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" class="slide-indicator" aria-label="Slide 2"></button>
+              </div> -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row goods-row">
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">41 000 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">56 000 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">37 500 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm card">
+                        <div class="card-body">
+                          <div class="action-icons">
+                            <img class="icon-hover favorite-icon" src="assets/heart.svg" alt="favorite-icon">
+                            <img class="icon-hover hidden-icon" src="assets/eye.svg" alt="seen-icon">
+                          </div>
+                          <div class="owl-carousel">
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                              <img src="assets/pngegg4(6).png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <h5 class="card-title">39 200 ₽</h5>
+                          <p class="card-text">Стильные золотые часы c бриллиантами</p>
+                          <div class="select-menu">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Желтое золото</option>
+                              <option value="1">Белое золото</option>
+                              <option value="2">Серебро</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Размер: 16</option>
+                              <option value="1">Размер: 17</option>
+                              <option value="2">Размер: 18</option>
+                              <option value="3">Размер: 19</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="controls-wrapper">
+                <button class="carousel-control-prev carousel-controls" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-controls" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                  <span class="carousel-control-next-icon carousel-controls-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </section>
+      <section>
+        <div id="carouselExampleIndicators10" class="carousel slide default-carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card special-offer-card">
+                <div class="row">
+                  <div class="col-sm special-offer-info">
+                    <div class="special-offer-text">Скидки на все украшения с бриллиантами</div>
+                    <div class="special-offer-discount" id="teal-block">До <span class="special-offer-discount-value">-50%</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg2.png" class="d-block w-80" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="card special-offer-card">
+                <div class="row">
+                  <div class="col-sm special-offer-info">
+                    <div class="special-offer-text">Скидки на кольца и браслеты</div>
+                    <div class="special-offer-discount" id="red-block">До <span class="special-offer-discount-value">-40%</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg(1)5.png" class="d-block w-80" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="card special-offer-card">
+                <div class="row">
+                  <div class="col-sm special-offer-info">
+                    <div class="special-offer-text">Снижение цен  на обручальные кольца</div>
+                    <div class="special-offer-discount" id="orange-block">До <span class="special-offer-discount-value">-60%</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg(3)5.png" class="d-block w-80" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card special-offer-card">
+                <div class="row">
+                  <div class="col-sm special-offer-info">
+                    <div class="special-offer-text">Скидки на все украшения с бриллиантами</div>
+                    <div class="special-offer-discount" id="teal-block">До <span class="special-offer-discount-value">-50%</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg2.png" class="d-block w-80" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="card special-offer-card">
+                <div class="row">
+                  <div class="col-sm special-offer-info">
+                    <div class="special-offer-text">Скидки на кольца и браслеты</div>
+                    <div class="special-offer-discount" id="red-block">До <span class="special-offer-discount-value">-40%</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg2.png" class="d-block w-80" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="card special-offer-card">
+                <div class="row">
+                  <div class="col-sm special-offer-info">
+                    <div class="special-offer-text">Снижение цен  на обручальные кольца</div>
+                    <div class="special-offer-discount" id="orange-block">До <span class="special-offer-discount-value">-60%</span></div>
+                  </div>
+                  <div class="col-sm">
+                    <img src="assets/pngegg2.png" class="d-block w-80" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="controls-wrapper special-offer-controls">
+            <button class="carousel-control-prev carousel-controls" type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon carousel-controls-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next carousel-controls" type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide="next">
+              <span class="carousel-control-next-icon carousel-controls-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="goods-of-the-day">
+        <div class="row goods-of-the-day-view">
+          <div class="col-sm healine-and-picture">
+            <h1 class="block-title">Товар дня</h1>
+            <div id="carouselExampleControls893" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-80" src="assets/04EDA19C9767F7100CFFDE5D049E1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-80" src="assets/04EDA19C9767F7100CFFDE5D049E1.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-80" src="assets/04EDA19C9767F7100CFFDE5D049E1.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls893" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls893" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm pickers-and-buttons">
+            <div class="rating">
+              <img src="assets/Group809.svg" alt="favorite-icon">
+              <p class="rating-number">4,2</p>
+            </div>
+            <div class="name-and-id">
+              <h1 class="goods-name">Кольцо из золота с бриллиантами</h1>
+              <p class="goods-id">Артикул: 1012076</p>
+            </div>
+            <div class="price-and-time">
+              <p class="price-now">22 000 ₽</p>
+              <p class="old-price">22 000 ₽</p>
+              <div class="time-table">
+                <div class="time-item">
+                  <p class="time-number">12</p>
+                  <p class="time-value">часов</p>
+                </div>
+                <div class="time-item">
+                  <p class="time-number">46</p>
+                  <p class="time-value">минут</p>
+                </div>
+                <div class="time-item">
+                  <p class="time-number">51</p>
+                  <p class="time-value">секунд</p>
+                </div>
+              </div>
+            </div>
+            <div class="color-picker-block">
+              <p class="parameter-label">цвет</p>
+              <div class="color-picker">
+                <div class="color" id="grey-color"></div>
+                <div class="color" id="yellow-color"></div>
+                <div class="color" id="orange-color"></div>
+                <div class="color" id="green-color"></div>
+              </div>
+            </div>
+            <div class="size">  
+              <div class="size-description">
+                <p class="parameter-label">размер</p>
+                <!-- <div 
+                class="size-explanation"
+                data-bs-toggle="tooltip" 
+                data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                title="Tooltip on top"
+                >?</div> -->
+              </div>
+              <div class="size-picker">
+                <div class="size-value">16,5</div>
+                <div class="size-value">17,5</div>
+                <div class="size-value">18,5</div>
+                <div class="size-value">19</div>
+                <div class="size-value">19,5</div>
+                <div class="size-value">19,5</div>
+                <div class="size-value">18,5</div>
+                <div class="size-value">19</div>
+                <div class="size-value">19,5</div>
+                <div class="size-value">19,5</div>
+              </div>
+              <div class="row"></div>
+              <div class="action-buttons">
+                <div class="row">
+                  <div class="col-7">
+                    <div class="button-group">
+                      <button type="button" class="btn btn-primary btn-lg btn-block normal-button full-width-button">в корзину</button>
+                      <button type="button" class="btn btn-secondary btn-lg btn-block normal-button secondary full-width-button">купить в 1 клик</button>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="row">
+                      <div class="col-1">
+                        <img src="assets/heart.svg" alt="favorite-icon">
+                      </div>
+                      <div class="col-10">
+                        <a href="#" class="link-hover">Сохранить</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-1">
+                        <img src="assets/Group2.svg" alt="favorite-icon">
+                      </div>
+                      <div class="col-10">
+                        <a href="#" class="link-hover">Сравнить</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-1">
+                        <img src="assets/share-one.svg" alt="favorite-icon">
+                      </div>
+                      <div class="col-10">
+                        <a href="#" class="link-hover">Поделиться</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="articles-block">
+          <div class="articles-headline">
+            <h1 class="block-title">Статьи</h1>
+            <div class="more-articles">
+              <a href="#" class="read-all">Читать все</a>
+              <img class="arrow-icon" src = "assets/Arrow2.svg" alt="arrow-icon"/>
+            </div>
+          </div>
+          <div class="articles">
+            <a href="#" class="artile-preview">
+              <img src = "assets/mathilde-langevin-f1FkoppimsA-unsplash1.png" alt="article-image"/>
+              <p class="date">21 сентября 2021</p>
+              <p class="article-title">Обручальные кольца: тренды 2021</p>
+            </a>
+            <a href="#" class="artile-preview">
+              <img src = "assets/raphael-lovaski-guiVHikFkvQ-unsplash1.png" alt="article-image"/>
+              <p class="date">25 сентября 2021</p>
+              <p class="article-title">Главные ювелирные тренды года</p>
+            </a>
+            <a href="#" class="artile-preview">
+              <img src = "assets/fiona-murray-KE95wIwKp4Y-unsplash1.png" alt="article-image"/>
+              <p class="date">21 сентября 2021</p>
+              <p class="article-title">Жемчуг: 7 малоизвестных фактов о культовом украшении</p>
+            </a>
+            <a href="#" class="artile-preview">
+              <img src = "assets/anastasia-anastasia-nlQFycTD04M-unsplash1.png" alt="article-image"/>
+              <p class="date">21 сентября 2021</p>
+              <p class="article-title">Как отличить золото от подделки: 10 практических советов</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <script type="module" src="./js/main.js"></script>
+    </section>
+    <!-- <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>   -->
+  </body>
+</html>

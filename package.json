@@ -1,0 +1,29 @@
+{
+  "name": "goldy-store",
+  "version": "0.0.0",
+  "main": "dist/goldy-store.mjs",
+  "module": "dist/goldy-store.mjs",
+  "exports": {
+    ".": "./dist/goldy-store.mjs"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.3",
+    "jquery": "^3.6.3",
+    "sass": "^1.32.12",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "owl.carousel": "^2.3.4"
+  }
+}
