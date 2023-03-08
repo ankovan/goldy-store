@@ -22,6 +22,7 @@ export default defineConfig({
   server: {
     port: 8080
   },
+  base: "/goldy-store/",
   build: {
     outDir: '../dist',
     minify: true
